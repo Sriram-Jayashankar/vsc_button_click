@@ -3,6 +3,10 @@
   "displayName": "toggle button on extended display",
   "description": "toggles button",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sriram-Jayashankar/vsc_button_click"
+  },
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -35,7 +39,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "vscecool":"vsce package"
   },
   "devDependencies": {
     "@types/vscode": "^1.84.0",
