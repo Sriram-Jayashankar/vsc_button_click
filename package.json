@@ -15,8 +15,10 @@
     "commands": [
       {
           "command": "extension.runClickApp",
-          "title": "Run ClickApp"
-      }
+          "title": "Run ClickApp",
+          "icon": "media/favicon.ico"
+        }
+      
   ],
   "menus": {
     "editor/title": [
